@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.hh{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+header{ background: rgba(12, 14, 24, 0.4);
+    padding: 40px 0;
+}
+.hh p {
+    color: white;
+    font-size: 20px;
+}
+h2{
+    font-size: 40px;
+    color: white;
+}
+.btn{
+    padding: 10px 30px;
+    background-color: #BFAFF2;
+    border: none;
+    border-radius: 30px;
+}
+.h{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.h p{
+    color: white;
+    font-size: 20px;
+}
+.h-ota{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+select{
+    background-color: inherit;
+    font-size: 20px;
+    color: white;
+    border:none;
+}
+
+
+body{
+    background-color: rgba(16, 18, 32, 1);
+}
+
+
+.card-t{
+    width: 325px;
+height: 300px;
+border-radius: 32px;
+background-color: rgba(35, 32, 40, 1);
+text-align: center;
+padding: 90px 10px 10px;
+position: absolute;
+top: 360px;
+left: 10px;
+}
+.card-t h3{
+    color: white;
+    font-size: 30px;
+}
+
+.card-t p{
+    color: white;
+    font-size: 18px;
+    margin-top: 15px;
+}
+.g{
+  position: absolute;
+  z-index: 1;
+  top: 108px;
+  left: 33px;
+}
+.card{
+    position: relative;
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1000px;
+}
+
+
+footer{
+    margin-top: 800px;
+    background-color: rgba(12, 14, 24, 0.4);
+    padding: 30px 0;
+}
